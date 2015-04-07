@@ -13,7 +13,7 @@ var
 * @author	Abel Vázquez
 * @version 1.1.0
 */
-turf.tinconstrained= function(poly, steinerpoints){
+module.exports = function(poly, steinerpoints){
 	
 	if (poly.geometry === void 0 || poly.geometry.type !== 'Polygon' ) throw('"turf-tin-constrained" only accepts polygon type input');
 	
